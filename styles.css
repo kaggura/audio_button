@@ -1,0 +1,27 @@
+#demo_base{
+    position: relative;
+    margin:20px auto;
+    height:80px;
+}
+#demo_btn{
+    cursor: pointer;
+    border-radius: 30px;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    background-color: #3399CC;
+    text-align: center;
+    user-select: none;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    color:#FFF;
+    border:solid 2px #66BBEE;
+    font-size:14px;
+    margin:0px 0 0 0px;
+    position: absolute;
+}
+
+#demo_btn:active{
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+    margin:2px 0 0 2px;
+    transition: all 0.2s ease;
+}
